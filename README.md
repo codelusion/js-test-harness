@@ -7,6 +7,5 @@ Notes: Sample code and tests relating to the Media Player is from the Karma Stan
 - Setting up Karma for TDD
 - Setting up Karma for CI/Build Server using PhantomJS
 - Setting up test filters via commandline flags
-- Organizing test suites for ease of use / isolated testing
 - Testing jQuery Ajax
 - Testing jQuery with HTML

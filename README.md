@@ -8,4 +8,14 @@ Notes: Sample code and tests relating to the Media Player is from the Karma Stan
 - Setting up Karma for CI/Build Server using PhantomJS
 - Setting up test filters via commandline flags
 - Testing jQuery Ajax
-- Testing jQuery with HTML
+- Testing jQuery with HTML injection into spec
+
+
+Installation
+------------
+```
+git clone https://github.com/codelusion/js-test-harness
+npm install
+gulp test
+```
+

@@ -1,8 +1,8 @@
 ##js-test-harness
 
-###A sample "Test Harness" for Javascript using Gulp, Karma, Jasmine and Phantom.js
+###A "Test Harness" for Javascript using Gulp, Karma, Jasmine and Phantom.js
 
-While attempting to setup test harness for an enterprise SaaS application with a large untested Javascript codebase, I had to pull together
+While setting up a test harness for an enterprise SaaS application with a large (untested) Javascript codebase, I had to pull together
 information from a lot of different sources. 
 
 I was looking to do the following:
@@ -21,7 +21,7 @@ This test harness pulls together all of these.
 
 ###To install and run sample tests:
 
-```
+```bash
 git clone https://github.com/codelusion/js-test-harness
 npm install
 gulp test

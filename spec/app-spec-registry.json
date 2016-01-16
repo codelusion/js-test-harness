@@ -1,6 +1,7 @@
 {
   "App": [
     "src/mediaPlayer/Player.js",
-    "src/mediaPlayer/Song.js"
+    "src/mediaPlayer/Song.js",
+    "src/registration/Register.js"
   ]
 }

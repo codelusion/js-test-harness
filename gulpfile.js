@@ -45,7 +45,7 @@ gulp.task('karma-test-js', ['set-env'], function (done) {
 //watch files and run tests on change
 gulp.task('tdd-watch', ['set-env'], function (done) {
     new Server({
-        basePath: __dirname + '/../',
+        basePath: __dirname,
         configFile: __dirname + '/karma.conf.js',
         files: testSetup.includeFiles(),
         exclude: testSetup.excludeFiles(),

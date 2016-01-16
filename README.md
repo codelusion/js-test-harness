@@ -17,5 +17,8 @@ Notes: Sample code and tests relating to the Media Player is from the Karma Stan
 git clone https://github.com/codelusion/js-test-harness
 npm install
 gulp test
+gulp test -f "text to match" //only runs tests that match phrase
+gulp tdd //TDD Mode, tess are run when changes are detected
+
 ```
 

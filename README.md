@@ -1,6 +1,8 @@
 ##js-test-harness
 
-###A test harness for Javascript using Gulp, Karma, Jasmine and Phantom.js
+###A sample "Test Harness" for Javascript using Gulp, Karma, Jasmine and Phantom.js
+
+Notes: Sample code and tests relating to the Media Player is from the Karma Standalone download.
 
 - Setting up Karma for TDD
 - Setting up Karma for CI/Build Server using PhantomJS

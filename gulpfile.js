@@ -2,9 +2,9 @@
 var gulp = require('gulp');
 var Server = require('karma').Server;
 var env = require('gulp-env');
-var testSetup = require('./lib/test-setup');
+var testSetup = require('./lib/spec-setup');
 var argv = require('minimist')(process.argv.slice(2));
-var testResults = require('./lib/test-report');
+var testResults = require('./lib/spec-report');
 
 //setup environment variables
 gulp.task('set-env', function () {

@@ -11,8 +11,8 @@ Notes: Sample code and tests relating to the Media Player is from the Karma Stan
 - Testing jQuery with HTML injection into spec
 
 
-Installation
-------------
+###To install and run sample tests:
+
 ```
 git clone https://github.com/codelusion/js-test-harness
 npm install

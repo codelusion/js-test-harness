@@ -14,8 +14,7 @@ I was looking to do the following:
 
 This test harness pulls together all of these.
 
-*Note:* 
- - Sample code and tests relating to the Media Player is from the Jasmine standalone download: https://github.com/jasmine/jasmine/releases
+*Note:* Sample code and tests relating to the Media Player is from the Jasmine standalone download: https://github.com/jasmine/jasmine/releases
 
 
 

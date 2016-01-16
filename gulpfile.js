@@ -17,7 +17,7 @@ gulp.task('set-env', function () {
     })
 });
 
-
+//CI/Build Server Mode
 //test runner task
 gulp.task('karma-test-js', ['set-env'], function (done) {
     var clientArgs = [];
@@ -42,6 +42,13 @@ gulp.task('karma-test-js', ['set-env'], function (done) {
     }).start();
 });
 
+//final report on tests
+//exit code set here for CI/Build server
+gulp.task('final', ['karma-test-js'], function () {
+    testResults.report();
+});
+
+//TDD Mode
 //watch files and run tests on change
 gulp.task('tdd-watch', ['set-env'], function (done) {
     new Server({
@@ -51,13 +58,6 @@ gulp.task('tdd-watch', ['set-env'], function (done) {
         exclude: testSetup.excludeFiles(),
         autoWatch: true
     }, done).start();
-});
-
-
-//final report on tests
-//exit code set here for CI/Build server
-gulp.task('final', ['karma-test-js'], function () {
-    testResults.report();
 });
 
 //Task dependencies

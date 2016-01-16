@@ -15,8 +15,7 @@ var Register = (function ($) {
                 password: {
                     required: true,
                     minlength: 5
-                },
-                agree: "required"
+                }
             },
 
             // Specify the validation error messages
@@ -27,12 +26,21 @@ var Register = (function ($) {
                     required: "Please provide a password",
                     minlength: "Your password must be at least 5 characters long"
                 },
-                email: "Please enter a valid email address",
-                agree: "Please accept our policy"
+                email: "Please enter a valid email address"
             },
 
             submitHandler: function(form) {
-                form.submit();
+                $.ajax({
+                    type: "POST",
+                    url: 'http://example.com/register/',
+                    data: $(form).serialize(),
+                    success: function(data) {
+                        alert(data.message);
+                    },
+                    error: function() {
+                        alert('An error occurred');
+                    }
+                });
             }
         });
 

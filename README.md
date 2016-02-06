@@ -1,16 +1,16 @@
 ##js-test-harness
 
-###A "Test Harness" for Javascript using Gulp, Karma, Jasmine and Phantom.js
+###A test harness for Javascript using Gulp, Karma, Jasmine and Phantom.js
 
-While setting up a test harness for an enterprise SaaS application with a large (untested) Javascript codebase, I had to pull together
+While setting up a test harness for an enterprise SaaS application with a largely untested Javascript codebase, I had to pull together
 information from a lot of different sources. 
 
 I was looking to do the following:
 - Setup Karma for TDD
 - Setup Karma for a CI/Build Server (Jenkins) using PhantomJS
 - Setup test filters via commandline flags
-- Setup to test jQuery Ajax (ability to mock Http Requests)
-- Setup testing for jQuery with HTML injection into spec (because Javascript is coupled the DOM).
+- Setup to test ajax with jQuery (i.e. the ability to mock Http Requests)
+- Setup testing for jQuery with HTML injection into a spec (in cases where Javascript is coupled the DOM).
 
 This test harness pulls together all of these.
 
